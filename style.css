@@ -21,10 +21,10 @@
 .container img{
     width: 200px;
 }
-.container >div{
+.container > main{
     width: 80%;
 }
-div > h1{
+main > h1{
     text-align: center;
     color: var(--dark-blue);
     margin:20px 10px ;
@@ -78,7 +78,7 @@ button:hover{
 }
 
 @media (max-width:660px) {
-    .container > div{
+    .container > main{
         width: 100%;
         margin: 10px 30px;
     }
